@@ -1,0 +1,199 @@
+header{
+    background-image: url(../../assets//images//3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: 620px;
+    overflow: hidden;
+    padding: 100px;
+}
+header h2{
+    font-size: 3.5rem;
+    color:#43121D;
+    font-weight: bold;
+    width: 80%;
+font-family: 'Tajawal', sans-serif;
+}
+header p{
+    width: 80%;
+    color: #797777;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+button{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: .2s all ease-in;
+    box-shadow: 2px 2px 3px gray;
+}
+.btn1{
+    background-color: #A82D49;
+    color: white; 
+    font-weight: bold;
+     
+}
+.btn1 span{
+    margin-left: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+
+}
+button:hover a{
+    color: #791f34;
+}
+button:hover{
+    background-color: white;
+    color: #A82D49;
+    border: 3px solid #791f34;
+    font-weight: bold;
+    padding: 10px 25px;
+
+}
+
+.btn2{
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+.btn2 i{
+font-size: 14px;
+color: #777;
+margin-left: 15px;
+}
+@media (max-width:500px) {
+    header{
+        margin: 0;
+        max-width: 100%;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    header h2{
+        width: 100%;
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }header p{
+        width: 100%;
+    }header button{
+        display: block;
+    }
+}
+
+.numbers{
+    padding: 30px 0;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #791f34;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.numbers .container{
+ padding:0px 30px;
+}
+.numbers h2{
+    font-size: 2rem ;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.numbers h6{
+text-transform: uppercase;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+/* ******************************** */
+/* pride section  */
+/* *********************************** */
+
+.pride{
+padding: 100px 0;
+}
+.pride img{
+    max-width:120%;
+    border-radius: 10px;
+
+}
+@media (max-width:767px) {
+  .pride img{
+    max-width: 100%;
+  }
+}
+.pride-info{
+    width: 100%;
+    margin-left: 100px;
+}
+.pride-info h2{
+color: #43121D;
+font-size: 2.8rem;
+    width: 100%;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.pride-info p{
+color: #656565;
+font-size: 20px;
+line-height: 33px;
+margin: 20px 0;
+
+}
+@media (max-width:767px) {
+    .pride-info{
+        margin-left: 0;
+    }
+    .pride-info h2{
+        font-size: 1.8rem;
+    }
+}
+/* ************************** */
+/* ingredient section  */
+/* *************************** */
+.ingredients{
+max-width: 100%;
+overflow: hidden;
+text-align: left;
+}
+.ingredients img{
+    max-width: 100%;
+}
+.ingredients-info h2{
+    font-family: 'Tajawal', sans-serif;
+    color: #43121D;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.ingredients-info p{
+    color: #656565;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+.ingredients ul li{
+    list-style: none;
+    padding: 10px 0;
+    color: #656565;
+    font-family: 'Tajawal', sans-serif;
+
+    font-size: 18px;
+
+
+}
+.ingredients ul li i{
+    color: #A82D49;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+}
